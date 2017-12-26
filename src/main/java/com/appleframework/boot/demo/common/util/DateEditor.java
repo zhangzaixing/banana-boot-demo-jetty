@@ -7,6 +7,13 @@ import java.util.Date;
 
 import org.apache.commons.lang.time.DateUtils;
 
+/**
+ * 
+ *DateEditor class
+ *
+ *@author zzx
+ *@date 2017年12月26日 上午10:09:43
+ */
 public class DateEditor extends PropertyEditorSupport {
 	
 	public static final String[] DATE_PATTERNS = new String[] { "yyyy",

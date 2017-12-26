@@ -1,5 +1,12 @@
 package com.appleframework.boot.demo.common.util;
 
+/**
+ * 
+ *StringUtils class
+ *
+ *@author zzx
+ *@date 2017年12月26日 上午10:09:49
+ */
 public class StringUtils {
 
 	public static String zeroAfterFill(String message, int size) {

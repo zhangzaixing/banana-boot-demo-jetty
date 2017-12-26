@@ -17,12 +17,20 @@ import freemarker.template.TemplateDirectiveBody;
 import freemarker.template.TemplateException;
 import freemarker.template.TemplateModel;
 
+/**
+ * 
+ *DatetimeDirective class
+ *
+ *@author zzx
+ *@date 2017年12月26日 上午10:09:36
+ */
 @Component("datetimeDirective")
 public class DatetimeDirective extends BaseDirective {
 
 	private static final String VARIABLE_NAME = "dateTime";
 
 	@SuppressWarnings({ "rawtypes" })
+	@Override
 	public void execute(Environment env, Map params, TemplateModel[] loopVars, TemplateDirectiveBody body) throws TemplateException, IOException {		
 		DateFormat dateFormat = new SimpleDateFormat("yyyyMMddHHmmss");
 		DateFormat dateFormat2 = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");

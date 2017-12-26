@@ -19,7 +19,13 @@ import com.appleframework.jms.kafka.producer.KafkaMessageProducer2;
 import com.appleframework.model.DefaultDto;
 import com.appleframework.web.springmvc.controller.BaseController;
 
-
+/**
+ * 
+ *DemoController class
+ *
+ *@author zzx
+ *@date 2017年12月26日 上午10:09:56
+ */
 @Controller
 @RequestMapping("/demo")
 public class DemoController extends BaseController {
