@@ -1,4 +1,4 @@
-package com.appleframework.boot.demo.web;
+package com.bananaframework.boot.demo.web;
 
 import java.util.List;
 
@@ -28,7 +28,7 @@ import com.appleframework.web.springmvc.controller.BaseController;
  */
 @Controller
 @RequestMapping("/demo")
-public class DemoController extends BaseController {
+public class DemoWebController extends BaseController {
 	
 	@Resource
 	private KafkaMessageProducer2 kafkaMessageProducer2;

@@ -41,11 +41,28 @@
 		<load-on-startup>1</load-on-startup>
 	</servlet>
 
-
+<!--  
 	<servlet-mapping>
 		<servlet-name>spring-mvc</servlet-name>
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
+-->
+	
+	<!--Rop框架请求捕获 -->
+	<servlet>
+		<servlet-name>rop</servlet-name>
+		<servlet-class>com.appleframework.rop.RopServlet</servlet-class>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>rop</servlet-name>
+		<url-pattern>/router</url-pattern>
+	</servlet-mapping>
+	
+	<welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
 
 </web-app>
 

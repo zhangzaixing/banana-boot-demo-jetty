@@ -1,4 +1,4 @@
-package com.appleframework.boot.demo.common.util;
+package com.bananaframework.boot.demo.common.util;
 
 import java.beans.PropertyEditorSupport;
 import java.text.ParseException;
